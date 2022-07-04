@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigDecimal;
 
 /* 
-Факториал задача
+Факториал
 */
 
 public class Solution {
