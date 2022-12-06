@@ -4,7 +4,7 @@ package com.javarush.task.pro.task09.task0912;
 Проверка URL-адреса
 */
 
-import com.sun.source.tree.IfTree;
+
 
 public class Solution {
     public static void main(String[] args) {

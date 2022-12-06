@@ -25,10 +25,10 @@ public class Solution {
     }
 
     public static void printStudentsInfo() {
-        for (var pair : grades.entrySet()) {
+        grades.entrySet().forEach(pair -> {
             String key = pair.getKey();
             Double value = pair.getValue();
-            System.out.println(String.format("%s : %s",key,value));
-        }
+            System.out.println(String.format("%s : %s", key, value));
+        });
     }
 }
